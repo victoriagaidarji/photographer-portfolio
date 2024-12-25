@@ -1,0 +1,23 @@
+.modal__submit-button {
+    color: #1d1d1d;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #1d1d1d;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 40px;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    transition:  0.4s ease;
+  }
+  
+  .modal__submit-button:hover {
+   background-color: #414040;
+   color: #fff;
+   border: #1d1d1d;
+  }
+

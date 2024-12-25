@@ -1,0 +1,10 @@
+.portfolio__filters {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 515px;
+  border-bottom: 1px solid #1d1d1d;
+  gap: 65px;
+  top: 10px;
+}
+

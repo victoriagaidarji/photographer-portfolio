@@ -1,0 +1,15 @@
+.portfolio__filter {
+  font-size: 18px;
+  bottom: 15px;
+  padding-bottom: 3px;
+  transition: opacity 0.4s ease;
+  font-family: "Lora";
+}
+
+.portfolio__filter:hover {
+  opacity: 50%;
+}
+
+.portfolio__filter_active {
+  font-weight: bold;
+}

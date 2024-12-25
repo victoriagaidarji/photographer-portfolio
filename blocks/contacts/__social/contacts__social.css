@@ -1,0 +1,16 @@
+.contacts__social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  max-height: 80px;
+  transition: opacity 0.4s ease, scale 0.4s ease;
+  scale: 1;
+}
+
+.contacts__social:hover {
+  opacity: 50%;
+  scale: 1.02;
+}
+

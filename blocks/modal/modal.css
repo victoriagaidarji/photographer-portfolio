@@ -1,0 +1,47 @@
+.modal {
+  visibility: hidden;
+  opacity: 0; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0); 
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#shootType {
+  font-family: "Lora";
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d;
+  border-radius: 5%;
+  width: 422px;
+}
+
+input#duration {
+  font-family: "Lora";
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d ;
+  border-color: #1d1d1d;
+  border-radius: 5%;
+  width: 350px;
+}
+
+input#photos {
+  font-family: "Lora";
+  color: #1d1d1d;
+  border: 1px solid #1d1d1d ;
+  border-color: #1d1d1d;
+  border-radius: 5%;
+  width: 158px;
+}
+
+h3#final-Price {
+  color: #1d1d1d;
+  border-top: #1d1d1d;
+}
+

@@ -1,0 +1,15 @@
+.portfolio__link {
+  display: inline-block;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border-bottom: 1px solid #1d1d1d;
+  font-family: "Lora";
+  transition: opacity 0.4s ease;
+}
+
+.portfolio__link:hover {
+  opacity: 50%;
+}
+
+

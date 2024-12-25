@@ -1,0 +1,13 @@
+.retouch__comparison-image_before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.retouch__comparison-image_before img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

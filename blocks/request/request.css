@@ -1,0 +1,11 @@
+.request {
+  max-width: 1280px;
+  width: 1280px;
+  height: 600px;
+  background-image: url(../../images/request-photographer.png);
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

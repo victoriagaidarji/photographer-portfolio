@@ -1,0 +1,10 @@
+.home__header-item {
+  font-size: 22px;
+  color: #1d1d1d;
+  text-shadow: 1px 1px #1d1d1d 50%;
+  transition: opacity 0.4s ease;
+}
+
+.home__header-item:hover {
+  opacity: 50%;
+}

@@ -1,0 +1,14 @@
+.retouch__content {
+  height: 580px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  text-align: center; 
+  margin-top: 0;
+  padding-top: 0;
+  background-color: #fff;
+  background-size: 1280px 585px;
+  z-index: 1;
+}
+

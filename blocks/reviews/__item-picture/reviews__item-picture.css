@@ -1,0 +1,8 @@
+.reviews__item-picture {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+

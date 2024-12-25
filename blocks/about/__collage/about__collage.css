@@ -1,0 +1,12 @@
+.about__collage {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  width: 465px;
+  height: 455px;
+  position: st;
+  right: 60px;
+  top: 60px;
+}
+

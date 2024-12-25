@@ -1,0 +1,11 @@
+.reviews__items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1112px;
+  gap: 45px;
+  margin-top: 0;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 70px;
+}
+

@@ -1,0 +1,11 @@
+.request__area {
+  border: 1px solid #fff;
+  padding: 40px;
+  width: 50%;
+  height: 260px;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

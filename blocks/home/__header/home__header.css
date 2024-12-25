@@ -1,0 +1,12 @@
+.home__header {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 625px;
+  height: 29px;
+  margin: 0 auto;
+  
+}

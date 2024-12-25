@@ -1,0 +1,10 @@
+.about__title {
+  position: relative;
+  font-size: 85px;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  top: 0;
+  left: 60px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
+}

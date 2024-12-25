@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  height: 70px;
+  background-color: #727272;
+  margin: 0;
+  padding: 0;
+}
+

@@ -1,0 +1,11 @@
+.portfolio__gallery-item {
+  width: calc(25% - 16px); 
+  display: block; 
+  object-fit: cover; 
+  object-position: center;
+  transform: scale(1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+

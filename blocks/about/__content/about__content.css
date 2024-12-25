@@ -1,0 +1,12 @@
+.about__content { 
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 200px;
+}
+
+
+
+
+
+

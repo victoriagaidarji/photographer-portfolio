@@ -1,0 +1,8 @@
+.slogan__papercut {
+  width: 1280px;
+  height: 600px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+}

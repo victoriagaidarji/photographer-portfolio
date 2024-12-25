@@ -1,0 +1,10 @@
+.price__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+  max-height: 500px;
+  color: #fff;
+  background-color: #727272;
+}
+

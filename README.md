@@ -53,8 +53,7 @@
 **Калькулятор стоимости фотосессии** учитывает такие параметры, как тип съемки, длительность съемки, количество обработанных фотографий и дополнительные услуги.
 
 ## Ссылка на макет в Figma
-
 https://www.figma.com/design/E7kHjuN1YVYkG4SqmmazmJ/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F?node-id=36-5&t=pWKKUWPntcB1nfh7-0
 
 ## Ссылка на сайт (GitHub Pages)
-
+https://victoriagaidarji.github.io/photographer-portfolio/

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио-фотографа">
+  <meta name="author" content="Гайдаржий Виктория">
+  <title>Портфолио фотографа</title>
+  <link rel="shortcut icon" href="./images/website-logo.png">
+  <link rel="stylesheet" href="./index.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+  <section class="home" id="home">
+    <img src="./images/mirror-pic.png" alt="Женщина в зеркале" class="home__picture">
+      <nav class="home__header">
+        <a href="#about" class="home__header-item">О нас</a>
+        <a href="#portfolio" class="home__header-item">Портфолио</a>
+        <a href="#price" class="home__header-item">Прайс</a>
+        <a href="#reviews" class="home__header-item">Отзывы</a>
+        <a href="#contacts" class="home__header-item">Контакты</a>
+      </nav>
+    <div class="home__content">
+      <div class="home__title">
+        <h1 class="home__title-top">Портфолио</h1>
+        <h1 class="home__title-bottom">фотографа</h1>
+      </div>
+      <p class="home__quote">Каждая фотография — это история, рассказанная без слов.</p>
+      <button class="home__button" type="button" id="open-calculator-1">Записаться на съемку</button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="about__title">О нас</h2>
+    <div class="about__content">
+      <div class="about__paragraphs">
+        <p class="about__paragraph">Мы — команда профессиональных фотографов, которая создает уникальные и выразительные образы для каждого клиента. Наша работа основывается на страсти к фотографии и стремлении передать атмосферу, эмоции и характер через объектив камеры.</p>
+        <p class="about__paragraph">Мы специализируемся на различных жанрах фотографии: от портретов и семейных съемок до свадебных и коммерческих проектов. В каждом проекте мы стремимся не только зафиксировать момент, но и создать историю, которая будет живой и наполненной смыслом.</p>
+        <p class="about__paragraph">Наш подход к работе — это индивидуальность и внимание к деталям. Мы уверены, что каждый человек или событие заслуживает того, чтобы быть представленным в лучшем свете, и всегда стараемся подчеркнуть уникальность каждого кадра. Мы верим, что фотография — это не просто искусство, но и способ сохранить важные моменты жизни.
+        <br>Наша миссия — делать так, чтобы каждое фото было не просто красивым, а живым и отражающим настоящие эмоции. Мы работаем с людьми, которые ценят красоту момента и хотят увековечить важные события в своей жизни через фотографии.</p>
+      </div>
+      <div class="about__collage">
+        <img src="./images/about-pic1.jpg" class="about__collage-element" alt="Коллаж часть 1">
+        <img src="./images/about-pic2.jpg" class="about__collage-element" alt="Коллаж часть 2">
+        <img src="./images/about-pic3.jpg" class="about__collage-element" alt="Коллаж часть 3">
+        <img src="./images/about-pic4.jpg" class="about__collage-element" alt="Коллаж часть 4">
+      </div>
+    </div>
+  </section>
+
+  <section class="slogan" id="slogan">
+    <img src="./images/ripped-paper.png" alt="Разорванная бумага">
+    <div class="slogan__content">
+      <p class="slogan__quotes">“</p>
+      <p class="slogan__text">Наши работы — это не просто техника. Это наш взгляд на мир.</p>
+      <p class="slogan__quotes">„</p>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="portfolio__title">Портфолио</h2>
+    <div class="portfolio__content">
+      <nav class="portfolio__filters">
+        <a href="#portraits" class="portfolio__filter portfolio__filter_active">Портреты</a>
+        <a href="#events" class="portfolio__filter">Свадьбы</a>
+        <a href="#brands" class="portfolio__filter">Бренды</a>
+        <a href="#subjects" class="portfolio__filter">Предметы</a>
+      </nav>
+      <div class="portfolio__gallery">
+        <div class="portfolio__gallery_portraits portfolio__gallery_hidden">
+            <img src="./images/portfolio-portraits/portfolio-portrait1.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits expand__image" alt="Портрет 1" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait2.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits" alt="Портрет 2" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait3.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits" alt="Портрет 3" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait4.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits" alt="Портрет 4" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait5.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 5" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait6.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 6" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait7.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 7" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait8.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 8" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait9.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 9" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait10.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 10" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait11.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 11" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait12.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 12" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait13.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 13" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait14.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 14" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait15.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 15" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait16.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 16" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait17.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 17" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait18.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 18" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait19.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 19" loading="lazy" data-aos="fade-down">
+            <img src="./images/portfolio-portraits/portfolio-portrait20.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 20" loading="lazy" data-aos="fade-down">
+          </div>
+        <div class="portfolio__gallery_events portfolio__gallery_hidden">
+          <img src="./images/portfolio-events/portfolio-event1.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 1" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event2.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 2" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event3.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 3" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event4.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 4" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event5.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 5" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event6.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 6" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event7.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 7" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event8.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 8" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event9.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 9" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event10.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 10" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event11.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 11" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event12.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 12" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event13.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 13" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event14.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 14" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event15.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 15" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event16.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 16" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event17.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 17" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event18.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 18" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event19.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 19" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-events/portfolio-event20.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 20" loading="lazy" data-aos="fade-down">
+        </div>
+        <div class="portfolio__gallery_brands portfolio__gallery_hidden">
+          <img src="./images/portfolio-brands/portfolio-brands1.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 1" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands2.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 2" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands3.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 3" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands4.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 4" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands5.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 5" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands6.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 6" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands7.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 7" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands8.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 8" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands9.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 9" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands10.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 10" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands11.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 11" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands12.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 12" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands13.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 13" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands14.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 14" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands15.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 15" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands16.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 16" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands17.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 17" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands18.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 18" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands19.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 19" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-brands/portfolio-brands20.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 20" loading="lazy" data-aos="fade-down">
+        </div>
+        <div class="portfolio__gallery_objects portfolio__gallery_hidden">
+          <img src="./images/portfolio-objects/portfolio-object1.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 1" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object2.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 2" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object3.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 3" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object4.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 4" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object5.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 5" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object6.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 6" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object7.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 7" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object8.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 8" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object9.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 9" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object10.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 10" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object11.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 11" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object12.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 12" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object13.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 13" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object14.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 14" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object15.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 15" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object16.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 16" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object17.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 17" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object18.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 18" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object19.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 19" loading="lazy" data-aos="fade-down">
+          <img src="./images/portfolio-objects/portfolio-object20.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects portfolio__gallery-item_hidden" alt="Предметы 20" loading="lazy" data-aos="fade-down">
+        </div>
+        <a href="#all" class="portfolio__link">Развернуть все</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="retouch" id="retouch">
+    <img src="/images/papercut-top.png" class="retouch__papercut-top" alt="Верхний кусок бумаги">
+    <div class="retouch__content">
+    <p class="retouch__description">
+      Фотография без обработки — это только начало. Мы делаем так, чтобы каждая деталь выглядела идеально: от света и текстуры до цвета и общего настроения. Посмотрите сами!
+    </p>
+    <h2 class="retouch__title">Искусство ретуши: До / После</h2>
+    <div class="retouch__comparison-image">
+      <div class="retouch__comparison-image_after">
+        <img src="./images/comparison-after.jpg" alt="Фото после ретуши">
+      </div>
+      <div class="retouch__comparison-image_before">
+        <img src="./images/comparison-before.jpg" alt="Фото до ретуши">
+      </div>
+      <div class="retouch__divider"></div>
+    </div>
+  </div>
+      <img src="/images/papercut-bottom.png" class="retouch__papercut-bottom" alt="Нижний кусок бумаги">
+  </section>
+
+  <section class="price" id="price">
+    <h2 class="price__title">Прайс</h2>
+    <div class="price__items">
+      <div class="price__item" data-base-price="450" data-hour-price="300" data-photo-edit-price="50" data-extra-services="100,200">
+        <h3 class="price__item-title">“Мини”</h3>
+        <p class="price__item-description">
+          - аренда студии до 1 часа <br>
+          - 1 образ в 1-2 локациях <br>
+          - обработка 1 фото - 30 руб. <br>
+          - дополнительные фото в базовой коррекции (20-30 кадров)
+        </p>
+        <div class="price__item-price">450 руб.</div>
+        <button class="price__item-button" type="button" id="open-calculator-2">Записаться на съемку</button>
+      </div>
+      <div class="price__item" data-base-price="800" data-hour-price="500" data-photo-edit-price="70" data-extra-services="150,300">
+        <h3 class="price__item-title">“Стандарт”</h3>
+        <p class="price__item-description">
+          - аренда студии до двух часов <br>
+          - 1-2 образа, 2-3 локации <br>
+          - обработка 1 фото - 25 руб. <br>
+          - дополнительные фото в базовой коррекции (40-50 кадров) <br>
+        </p>
+        <div class="price__item-price">800 руб.</div>
+        <button class="price__item-button" type="button" id="open-calculator-3">Записаться на съемку</button>
+      </div>
+      <div class="price__item" data-base-price="1200" data-hour-price="800" data-photo-edit-price="100" data-extra-services="200,400">
+        <h3 class="price__item-title">“Премиум”</h3>
+        <p class="price__item-description">
+          - аренда студии до трех часов <br>
+          - 3-5 образов <br>
+          - все доступные локации <br>
+          - обработка 1 фото - 15 руб. <br>
+          - дополнительные фото в базовой коррекции (50-150 кадров)
+        </p>
+        <div class="price__item-price">1200 руб.</div>
+        <button class="price__item-button" type="button" id="open-calculator-4">Записаться на съемку</button>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="goal" id="goal">
+    <img src="./images/ripped-paper.png" class="goal__picture" alt="Разорванная бумага">
+    <p class="goal__description">Наша главная цель — превзойти ожидания каждого клиента. От свадебной фотосессии до деловых портретов — вот, что говорят наши клиенты о нашем подходе и результатах.</p>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <h2 class="reviews__title">Отзывы наших клиентов</h2>
+    <div class="reviews__items">
+      <div class="reviews__item">
+        <img src="./images/review-1.jpg" class="reviews__item-picture" alt="Фотография первого клиента">
+        <div class="reviews__item-description">
+          <p class="reviews__item-quote">“Спасибо за потрясающую фотосессию! Все кадры просто восхитительны.”</p>
+          <p class="reviews__item-author">— Анна, семейная фотосессия</p>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <img src="./images/review-2.jpg" class="reviews__item-picture" alt="Фотография второго клиента">
+        <div class="reviews__item-description">
+          <p class="reviews__item-quote">“Фотосессия превзошла мои ожидания! Определенно буду рекомендовать!”</p>
+          <p class="reviews__item-author">— Татьяна, деловая фотосъемка</p>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <img src="./images/review-3.jpg" class="reviews__item-picture" alt="Фотография третьего клиента">
+        <div class="reviews__item-description">
+          <p class="reviews__item-quote">“Результат превзошел все наши ожидания. Спасибо за то, что сделали этот день незабываемым!”</p>
+          <p class="reviews__item-author">— Мария, свадебная фотосессия</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="request" id="request">
+    <div class="request__area">
+      <h2 class="request__title">Записаться на съемку</h2>
+      <p class="request__description">Оставьте Ваши контактные данные, и мы свяжемся с Вами для уточнения деталей фотосессии и выбора подходящего времени.</p>
+      <button class="request__button" type="button" id="open-calculator-5">Оставить заявку</button>
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts" >
+    <h2 class="contacts__title">Наши контакты</h2>
+    <div class="contacts__socials">
+      <a href="https://instagram.com" class="contacts__social">
+        <img src="./images/icons/instagram-icon.png" class="contacts__social-pic" alt="Иконка Инстаграм">
+        <p class="contacts__social-title">Instagram</p>
+      </a>
+      <a href="https://telegram.org" class="contacts__social">
+        <img src="./images/icons/telegram-icon.png" class="contacts__social-pic" alt="Иконка Телеграм">
+        <p class="contacts__social-title">Telegram</p>
+      </a>
+      <a href="https://wa.me" class="contacts__social">
+        <img src="./images/icons/whatsapp-icon.png" class="contacts__social-pic" alt="Иконка Ватсап">
+        <p class="contacts__social-title">WhatsApp</p>
+      </a>
+      <a href="tel:+37377911234" class="contacts__social">
+        <img src="./images/icons/phone-icon.png" class="contacts__social-pic" alt="Иконка Мобильный">
+        <p class="contacts__social-title">+373-779-11-234</p>
+      </a>
+      <a href="mailto:capturedmoments@mail.ru" class="contacts__social">
+        <img src="./images/icons/mail-icon.png" class="contacts__social-pic" alt="Иконка Почта">
+        <p class="contacts__social-title">capturedmoments@mail.ru</p>
+      </a>
+      <a href="https://www.google.com/maps?q=ул.+Мира+25,+г.+Тирасполь" class="contacts__social">
+        <img src="./images/icons/home-icon.png" class="contacts__social-pic" alt="Иконка Адрес">
+        <p class="contacts__social-title">ул. Мира 25, г. Тирасполь</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="footer" id="footer">
+    <h3 class="footer__description">Victoria Gaidarji 2024</h3>
+  </section>
+
+  <div class="modal" id="calculatorModal">
+    <div class="modal__content">
+      <button class="modal__close-button" id="closeCalculator">&times;</button>
+      <h3 class="modal__title">Калькулятор стоимости фотосессии</h3>
+      <form id="calculatorForm">
+        <div class="modal__field">
+          <label for="shootType">Тип съемки:</label>
+          <select id="shootType" required>
+            <option value="" disabled selected>Выберите пакет</option>
+            <option value="450" data-photo-price="25" data-extra-services="">
+              Мини (450 руб.)
+            </option>
+            <option value="800" data-photo-price="25" data-extra-services="">
+              Стандарт (800 руб.)
+            </option>
+            <option value="1200" data-photo-price="25" data-extra-services="">
+              Премиум (1200 руб.)
+            </option>
+          </select>
+        </div>
+        <div class="modal__field">
+          <label for="duration">Длительность (часов):</label>
+          <input type="number" id="duration" min="0" value="0" data-hour-price="450" required />
+        </div>
+        <div class="modal__field">
+          <label for="photos">Количество дополнительных обработанных фото:</label>
+          <input type="number" id="photos" min="0" value="0" />
+        </div>
+        <div class="modal__field">
+          <label>Дополнительные услуги:</label>
+          <div id="extraServicesContainer">
+            <label>
+              <input type="checkbox" value="1800" class="modal__extra-service-item" />
+              Отправка фото в течение 24 часов — 1800 руб.
+            </label>
+            <label>
+              <input type="checkbox" value="100" class="modal__extra-service-item" />
+              Аренда костюмов для съемки — 100 руб. за костюм
+            </label>
+            <label>
+              <input type="checkbox" value="400" class="modal__extra-service-item" />
+              Услуги визажиста — 400 руб.
+            </label>
+            <label>
+              <input type="checkbox" value="400" class="modal__extra-service-item" />
+              Услуги парикмахера — 400 руб.
+            </label>
+            <label>
+              <input type="checkbox" value="1000" class="modal__extra-service-item" />
+              Использование дрона для фотосъемки — 1000 руб.
+            </label>
+            <label>
+              <input type="checkbox" value="700" class="modal__extra-service-item" />
+              Использование дым-машины для эффекта — 700 руб.
+            </label>
+            <label>
+              <input type="checkbox" value="100" class="modal__extra-service-item" />
+              Съемка backstage (в процессе съемки) — 100 руб.
+            </label>
+          </div>
+        </div>        
+        <h3>Общая стоимость: <span id="finalPrice">0</span> руб.</h3>
+        <button type="submit" class="modal__submit-button">Записаться</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="./index.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html>

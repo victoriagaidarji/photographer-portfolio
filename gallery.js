@@ -1,17 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const grid = document.querySelector('.masonry');
-  
-  new Masonry(grid, {
-    itemSelector: '.masonry-item',
-    columnWidth: '.masonry-item', // Указываем ширину столбца
-    gutter: 10,                  // Отступы между элементами
-    percentPosition: true        // Включаем процентную ширину
-  });
-});
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
   const filters = document.querySelectorAll(".portfolio__filter");
   const galleries = document.querySelectorAll(".gallery__photos > div");

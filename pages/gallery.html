@@ -6,7 +6,6 @@
   <meta name="description" content="Портфолио-фотографа">
   <meta name="author" content="Гайдаржий Виктория">
   <title>Портфолио фотографа</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
   <link rel="shortcut icon" href="../images/website-logo.png">
   <link rel="stylesheet" href="../index.css">
 </head>
@@ -21,7 +20,7 @@
         <a href="#brands" class="portfolio__filter" data-category="brands">Бренды</a>
         <a href="#subjects" class="portfolio__filter" data-category="subjects">Предметы</a>
       </nav>
-      <div class="gallery__photos masonry">
+      <div class="gallery__photos">
         <div class="gallery__photos gallery__photos_portraits gallery__photos_hidden">
             <img src="../images/portfolio-portraits/portfolio-portrait1.jpg" class="gallery__item gallery__item_portraits" alt="Портрет 1" loading="lazy">
             <img src="../images/portfolio-portraits/portfolio-portrait2.jpg" class="gallery__item gallery__item_portraits" alt="Портрет 2" loading="lazy" data-aos="fade-down">
@@ -63,7 +62,7 @@
             <img src="../images/portfolio-portraits/portfolio-portrait39.jpg" class="gallery__item gallery__item_portraits" alt="Портрет 20" loading="lazy" data-aos="fade-down">
             <img src="../images/portfolio-portraits/portfolio-portrait40.jpg" class="gallery__item gallery__item_portraits" alt="Портрет 20" loading="lazy" data-aos="fade-down">
           </div>
-        <div class="gallery__photos gallery__photos_events masonry-item gallery__photos_hidden">
+        <div class="gallery__photos gallery__photos_events gallery__photos_hidden">
           <img src="../images/portfolio-events/portfolio-event1.jpg" class="gallery__item gallery__item_events" alt="Мероприятие 1" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-events/portfolio-event2.jpg" class="gallery__item gallery__item_events" alt="Мероприятие 2" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-events/portfolio-event3.jpg" class="gallery__item gallery__item_events" alt="Мероприятие 3" loading="lazy" data-aos="fade-down">
@@ -105,7 +104,7 @@
           <img src="../images/portfolio-events/portfolio-event39.jpg" class="gallery__item gallery__item_events" alt="Мероприятие 20" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-events/portfolio-event40.jpg" class="gallery__item gallery__item_events" alt="Мероприятие 20" loading="lazy" data-aos="fade-down">
         </div>
-        <div class="gallery__photos gallery__photos_brands masonry-item gallery__photos_hidden">
+        <div class="gallery__photos gallery__photos_brands gallery__photos_hidden">
           <img src="../images/portfolio-brands/portfolio-brands1.jpg" class="gallery__item gallery__item_brands" alt="Бренд 1" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-brands/portfolio-brands2.jpg" class="gallery__item gallery__item_brands" alt="Бренд 2" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-brands/portfolio-brands3.jpg" class="gallery__item gallery__item_brands" alt="Бренд 3" loading="lazy" data-aos="fade-down">
@@ -147,7 +146,7 @@
           <img src="../images/portfolio-brands/portfolio-brands39.png" class="gallery__item gallery__item_brands" alt="Бренд 20" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-brands/portfolio-brands40.jpg" class="gallery__item gallery__item_brands" alt="Бренд 20" loading="lazy" data-aos="fade-down">
         </div>
-        <div class="gallery__photos gallery__photos_objects masonry-item gallery__photos_hidden">
+        <div class="gallery__photos gallery__photos_objects gallery__photos_hidden">
           <img src="../images/portfolio-objects/portfolio-object1.jpg" class="gallery__item gallery__item_brands" alt="Предметы 1" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-objects/portfolio-object2.jpg" class="gallery__item gallery__item_brands" alt="Предметы 2" loading="lazy" data-aos="fade-down">
           <img src="../images/portfolio-objects/portfolio-object3.jpg" class="gallery__item gallery__item_brands" alt="Предметы 3" loading="lazy" data-aos="fade-down">
@@ -193,11 +192,6 @@
     </div>
   </section>
   <script src="../gallery.js"></script>  
-
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>AOS.init();</script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-
 </body>
 </html>

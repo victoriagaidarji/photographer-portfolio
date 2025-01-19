@@ -31,6 +31,7 @@
 
 @import url('./blocks/portfolio/portfolio.css');
 @import url('./blocks/portfolio/__content/portfolio__content.css');
+@import url('./blocks/portfolio/__gallery-link/portfolio__gallery-link.css');
 @import url('./blocks/portfolio/__title/portfolio__title.css');
 @import url('./blocks/portfolio/__filters/portfolio__filters.css');
 @import url('./blocks/portfolio/__filter/portfolio__filter.css');
@@ -55,6 +56,19 @@
 */
 @import url('./blocks/portfolio/__gallery/_hidden/portfolio__gallery_hidden.css');
 
+@import url('./blocks/gallery/gallery.css');
+@import url('./blocks/gallery/__home-button/gallery__home-button.css');
+@import url('./blocks/gallery/__item/gallery__item.css');
+@import url('./blocks/gallery/__photos/gallery__photos.css');
+@import url('./blocks/gallery/__item/_portraits/gallery__item_portraits.css');
+@import url('./blocks/gallery/__item/_events/gallery__item_events.css');
+@import url('./blocks/gallery/__item/_brands/gallery__item_brands.css');
+@import url('./blocks/gallery/__item/_objects/gallery__item_objects.css');
+@import url('./blocks/gallery/__photos/_portraits/gallery__photos_portraits.css');
+@import url('./blocks/gallery/__photos/_events/gallery__photos_events.css');
+@import url('./blocks/gallery/__photos/_brands/gallery__photos_brands.css');
+@import url('./blocks/gallery/__photos/_objects/gallery__photos_objects.css');
+@import url('./blocks/gallery/__photos/_hidden/gallery__photos_hidden.css');
 
 @import url('./blocks/retouch/retouch.css');
 @import url('./blocks/retouch/__content/retouch__content.css');

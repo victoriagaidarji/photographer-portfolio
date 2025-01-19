@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="./index.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
 </head>
 <body>
   <section class="home" id="home">
@@ -60,16 +59,17 @@
   </section>
 
   <section class="portfolio" id="portfolio">
+    <button onclick="location.href='./pages/gallery.html'" class="portfolio__gallery-link">ПОСМОТРЕТЬ ВСЕ РАБОТЫ</button>
     <h2 class="portfolio__title">Портфолио</h2>
     <div class="portfolio__content">
       <nav class="portfolio__filters">
-        <a href="#portraits" class="portfolio__filter portfolio__filter_active">Портреты</a>
-        <a href="#events" class="portfolio__filter">Свадьбы</a>
-        <a href="#brands" class="portfolio__filter">Бренды</a>
-        <a href="#subjects" class="portfolio__filter">Предметы</a>
+        <a href="#portraits" class="portfolio__filter portfolio__filter_active" data-category="portraits">Портреты</a>
+        <a href="#events" class="portfolio__filter" data-category="events">Свадьбы</a>
+        <a href="#brands" class="portfolio__filter" data-category="brands">Бренды</a>
+        <a href="#subjects" class="portfolio__filter" data-category="subjects">Предметы</a>
       </nav>
       <div class="portfolio__gallery">
-        <div class="portfolio__gallery_portraits portfolio__gallery_hidden">
+        <div class="portfolio__gallery portfolio__gallery_portraits portfolio__gallery_hidden">
             <img src="./images/portfolio-portraits/portfolio-portrait1.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits expand__image" alt="Портрет 1" loading="lazy" data-aos="fade-down">
             <img src="./images/portfolio-portraits/portfolio-portrait2.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits" alt="Портрет 2" loading="lazy" data-aos="fade-down">
             <img src="./images/portfolio-portraits/portfolio-portrait3.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits" alt="Портрет 3" loading="lazy" data-aos="fade-down">
@@ -91,7 +91,7 @@
             <img src="./images/portfolio-portraits/portfolio-portrait19.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 19" loading="lazy" data-aos="fade-down">
             <img src="./images/portfolio-portraits/portfolio-portrait20.jpg" class="portfolio__gallery-item portfolio__gallery-item_portraits portfolio__gallery-item_hidden" alt="Портрет 20" loading="lazy" data-aos="fade-down">
           </div>
-        <div class="portfolio__gallery_events portfolio__gallery_hidden">
+        <div class="portfolio__gallery portfolio__gallery_events portfolio__gallery_hidden">
           <img src="./images/portfolio-events/portfolio-event1.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 1" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-events/portfolio-event2.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 2" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-events/portfolio-event3.jpg" class="portfolio__gallery-item portfolio__gallery-item_events" alt="Мероприятие 3" loading="lazy" data-aos="fade-down">
@@ -113,7 +113,7 @@
           <img src="./images/portfolio-events/portfolio-event19.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 19" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-events/portfolio-event20.jpg" class="portfolio__gallery-item portfolio__gallery-item_events portfolio__gallery-item_hidden" alt="Мероприятие 20" loading="lazy" data-aos="fade-down">
         </div>
-        <div class="portfolio__gallery_brands portfolio__gallery_hidden">
+        <div class="portfolio__gallery portfolio__gallery_brands portfolio__gallery_hidden">
           <img src="./images/portfolio-brands/portfolio-brands1.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 1" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-brands/portfolio-brands2.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 2" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-brands/portfolio-brands3.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands" alt="Бренд 3" loading="lazy" data-aos="fade-down">
@@ -135,7 +135,7 @@
           <img src="./images/portfolio-brands/portfolio-brands19.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 19" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-brands/portfolio-brands20.jpg" class="portfolio__gallery-item portfolio__gallery-item_brands portfolio__gallery-item_hidden" alt="Бренд 20" loading="lazy" data-aos="fade-down">
         </div>
-        <div class="portfolio__gallery_objects portfolio__gallery_hidden">
+        <div class="portfolio__gallery portfolio__gallery_objects portfolio__gallery_hidden">
           <img src="./images/portfolio-objects/portfolio-object1.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 1" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-objects/portfolio-object2.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 2" loading="lazy" data-aos="fade-down">
           <img src="./images/portfolio-objects/portfolio-object3.jpg" class="portfolio__gallery-item portfolio__gallery-item_objects" alt="Предметы 3" loading="lazy" data-aos="fade-down">
@@ -194,7 +194,7 @@
           - дополнительные фото в базовой коррекции (20-30 кадров)
         </p>
         <div class="price__item-price">450 руб.</div>
-        <button class="price__item-button" type="button" id="open-calculator-2">Записаться на съемку</button>
+        <button class="price__item-button" type="button" id="open-calculator-2">Рассчитать стоимость</button>
       </div>
       <div class="price__item" data-base-price="800" data-hour-price="500" data-photo-edit-price="70" data-extra-services="150,300">
         <h3 class="price__item-title">“Стандарт”</h3>
@@ -205,7 +205,7 @@
           - дополнительные фото в базовой коррекции (40-50 кадров) <br>
         </p>
         <div class="price__item-price">800 руб.</div>
-        <button class="price__item-button" type="button" id="open-calculator-3">Записаться на съемку</button>
+        <button class="price__item-button" type="button" id="open-calculator-3">Рассчитать стоимость</button>
       </div>
       <div class="price__item" data-base-price="1200" data-hour-price="800" data-photo-edit-price="100" data-extra-services="200,400">
         <h3 class="price__item-title">“Премиум”</h3>
@@ -217,7 +217,7 @@
           - дополнительные фото в базовой коррекции (50-150 кадров)
         </p>
         <div class="price__item-price">1200 руб.</div>
-        <button class="price__item-button" type="button" id="open-calculator-4">Записаться на съемку</button>
+        <button class="price__item-button" type="button" id="open-calculator-4">Рассчитать стоимость</button>
       </div>
     </div>
 
@@ -369,5 +369,7 @@
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
   <script>AOS.init();</script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
 </body>
 </html>

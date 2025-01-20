@@ -1,7 +1,17 @@
- // Инициализация Flatpickr для выбора даты и времени
  flatpickr("#date_time", {
-  enableTime: true, // Включаем выбор времени
-  dateFormat: "Y-m-d H:i", // Формат даты и времени
-  time_24hr: true, // Используем 24-часовой формат времени
-  minDate: "today", // Ограничение: нельзя выбрать прошедшие даты
+  enableTime: true, 
+  dateFormat: "Y-m-d H:i",
+  time_24hr: true, 
+  minDate: "today", 
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".registration__form");
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault(); 
+    location.reload(); 
+  });
 });

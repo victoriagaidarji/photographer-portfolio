@@ -1,0 +1,9 @@
+.registration__select {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 70%;
+  color: #555555;
+}

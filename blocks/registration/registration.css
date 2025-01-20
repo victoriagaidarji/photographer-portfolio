@@ -1,0 +1,16 @@
+.registration {
+  margin: 0;
+  background-image: url(../../images/registration-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  width: 1280px;
+  height: 573px;
+  color: #fff;
+  padding-top: 20px;
+}
+

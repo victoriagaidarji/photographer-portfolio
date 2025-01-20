@@ -1,0 +1,20 @@
+.registration__submit-button {
+height: 50px;
+display: block;
+font-family: 'Forum-Regular';
+background-color: transparent;
+border: 1px solid #fff;
+color: #fff;
+border-radius: 10px;
+font-size: 30px;
+cursor: pointer;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+transition:  0.4s ease;
+z-index: 1;
+}
+
+.registration__submit-button:hover {
+background-color: #bdbdbd;
+color: #1d1d1d;
+border: #1d1d1d;
+}

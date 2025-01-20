@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио-фотографа">
+  <meta name="author" content="Гайдаржий Виктория">
+  <title>Запись на фотосъёмку</title>
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+<body>
+  <section class="registration">
+    <div class="registration__form-container">
+      <h1 class="registration__title">Запись на фотосъёмку</h1>
+      <button onclick="location.href='../index.html'" class="registration__home-button">ВЕРНУТЬСЯ НА ГЛАВНУЮ</button>
+      <form action="#" method="post" class="registration__form">
+        <div class="registration__row">
+          <div class="registration__group">
+            <label for="name" class="registration__label">Ваше имя</label>
+            <input type="text" name="name" class="registration__input" placeholder="Введите Ваше имя" required>
+          </div>
+          <div class="registration__group">
+            <label for="email" class="registration__label">Электронный адрес</label>
+            <input type="email" name="email" class="registration__input" placeholder="Введите Ваш email" required>
+          </div>
+        </div>
+    
+        <div class="registration__row">
+          <div class="registration__group">
+            <label for="phone" class="registration__label">Контактный номер</label>
+            <input type="text" name="phone" class="registration__input" placeholder="Ваш номер телефона" required>
+          </div>
+          <div class="registration__group">
+            <label for="shoot_type" class="registration__label">Тип съемки</label>
+            <select name="shoot_type" class="registration__select" required>
+              <option value="" disabled selected>Выберите тип съемки</option>
+              <option value="portrait">Портретная съемка</option>
+              <option value="wedding">Свадебная съемка</option>
+              <option value="brand">Съемка для брендов</option>
+              <option value="objects">Предметная съемка</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="registration__row">
+          <div class="registration__group">
+            <label for="date_time" class="registration__label">Дата и время съёмки</label>
+            <input type="text" id="date_time" name="date_time" class="registration__input" placeholder="Выберите дату и время" required>
+          </div>
+          <div class="registration__group">
+            <label for="duration" class="registration__label">Длительность съёмки</label>
+            <select id="duration" name="duration" class="registration__select" required>
+              <option value="" disabled selected>Выберите длительность</option>
+              <option value="30">30 минут</option>
+              <option value="60">1 час</option>
+              <option value="90">1.5 часа</option>
+              <option value="120">2 часа</option>
+              <option value="custom">Другое (укажите в сообщении)</option>
+            </select>
+          </div>
+        </div>
+    
+        <textarea name="message" class="registration__textarea" placeholder="Расскажите об особых пожеланиях или референсах фотосъемки"></textarea>
+        <button type="submit" class="registration__submit-button">Записаться</button>
+      </form>
+    </div>
+
+    <div class="registration__contact-info">
+      <div class="registration__info-box">
+        <img src="../images/registration-icons/home-icon.png" class="registration__info-icon"></i>
+        <h4 class="registration__info-title">Адрес студии</h4>
+        <p class="registration__info-text">ул. Мира 25, г. Тирасполь</p>
+      </div>
+      <div class="registration__info-box">
+        <img src="../images/registration-icons/phone-icon.png" class="registration__info-icon"></i>
+        <h4 class="registration__info-title">Телефон</h4>
+        <p class="registration__info-text">+373-779-11-234</p>
+      </div>
+      <div class="registration__info-box">
+        <img src="../images/registration-icons/mail-icon.png" class="registration__info-icon"></i>
+        <h4 class="registration__info-title">Email</h4>
+        <p class="registration__info-text">capturedmoments@mail.ru</p>
+      </div>
+      <div class="registration__info-box">
+        <img src="../images/registration-icons/instagram-icon.png" class="registration__info-icon"></i>
+        <h4 class="registration__info-title">Instagram</h4>
+        <p class="registration__info-text">@perfectshoot</p>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script src='../registration.js'></script>
+</body>
+</html>

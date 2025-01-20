@@ -127,10 +127,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const button1 = document.getElementById("open-calculator-1");
   const button2 = document.getElementById("open-calculator-2");
   const button3 = document.getElementById("open-calculator-3");
-  const button4 = document.getElementById("open-calculator-4");
-  const button5 = document.getElementById("open-calculator-5");
 
-  [button1, button2, button3, button4, button5].forEach(button => {
+  [button1, button2, button3].forEach(button => {
     button.addEventListener("click", () => {
       calculatorModal.classList.add("modal_active");  
     });
@@ -188,3 +186,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   calculatePrice();
 })});
+
+
+
+
+
+

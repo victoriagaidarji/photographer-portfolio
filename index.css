@@ -31,12 +31,12 @@
 
 @import url('./blocks/portfolio/portfolio.css');
 @import url('./blocks/portfolio/__content/portfolio__content.css');
-@import url('./blocks/portfolio/__gallery-link/portfolio__gallery-link.css');
 @import url('./blocks/portfolio/__title/portfolio__title.css');
 @import url('./blocks/portfolio/__filters/portfolio__filters.css');
 @import url('./blocks/portfolio/__filter/portfolio__filter.css');
 @import url('./blocks/portfolio/__link/portfolio__link.css');
 @import url('./blocks/portfolio/__gallery/portfolio__gallery.css');
+@import url('./blocks/portfolio/__gallery-link/portfolio__gallery-link.css');
 @import url('./blocks/portfolio/__gallery-item/portfolio__gallery-item.css');
 @import url('./blocks/portfolio/__filter/_active/portfolio__filter_active.css');
 @import url('./blocks/portfolio/__gallery/_brands/portfolio__gallery_brands.css');
@@ -94,6 +94,23 @@
 @import url('./blocks/goal/goal.css');
 @import url('./blocks/goal/__picture/goal__picture.css');
 @import url('./blocks/goal/__description/goal__description.css');
+
+@import url('./blocks/registration/registration.css');
+@import url('./blocks/registration/__contact-info/registration__contact-info.css');
+@import url('./blocks/registration/__form-container/registration__form-container.css');
+@import url('./blocks/registration/__form/registration__form.css');
+@import url('./blocks/registration/__home-button/registration__home-button.css');
+@import url('./blocks/registration/__info-box/registration__info-box.css');
+@import url('./blocks/registration/__info-icon/registration__info-icon.css');
+@import url('./blocks/registration/__info-text/registration__info-text.css');
+@import url('./blocks/registration/__info-title/registration__info-title.css');
+@import url('./blocks/registration/__input/registration__input.css');
+@import url('./blocks/registration/__label/registration__label.css');
+@import url('./blocks/registration/__select/registration__select.css');
+@import url('./blocks/registration/__submit-button/registration__submit-button.css');
+@import url('./blocks/registration/__textarea/registration__textarea.css');
+@import url('./blocks/registration/__title/registration__title.css');
+@import url('./blocks/registration/registration__info-text/registration__info-text.css');
 
 @import url('./blocks/reviews/reviews.css');
 @import url('./blocks/reviews/__title/reviews__title.css');

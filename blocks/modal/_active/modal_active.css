@@ -3,3 +3,9 @@
   background: rgba(0, 0, 0, 0.5);
   opacity: 1;
 }
+
+@media (max-width: 375px) {
+  .modal_active {
+    width: 375px;
+  }
+}

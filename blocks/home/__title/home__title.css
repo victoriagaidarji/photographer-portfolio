@@ -1,5 +1,5 @@
 .home__title {
-  display: flexbox;
+  display: block;
   line-height: 0.8; 
   height: 180px;
   position: absolute;
@@ -11,24 +11,22 @@
 
 @media (max-width: 1024px) {
   .home__title {
-    top: 130px;
+    top: 160px;
     left: 15px;
-    height: 160px;
   }
 }
 
 @media (max-width: 768px) {
   .home__title {
-    top: 100px;
-    left: 10px;
-    height: 140px;
+    top: 160px;
+    left: 15px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .home__title {
     top: 80px;
-    left: 5px;
+    left: 65px;
     height: 120px;
   }
 }

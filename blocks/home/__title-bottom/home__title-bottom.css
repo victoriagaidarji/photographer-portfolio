@@ -5,3 +5,25 @@
   margin: 0;
 }
 
+@media (max-width: 1024px)  {
+  .home__title-bottom {
+    font-size: 63px;
+    padding-left: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__title-bottom {
+    font-size: 48px;
+    padding-left: 470px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home__title-bottom {
+    position: absolute;
+    bottom: 133px;
+    font-size: 23px;
+    padding-left: 162px;
+  }
+}

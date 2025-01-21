@@ -7,3 +7,27 @@
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .modal__content {
+      padding: 20px;
+      height: auto; 
+      margin: 10px;
+    }
+  }
+
+@media (max-width: 768px) {
+  .modal__content {
+    padding: 15px;
+    height: auto; 
+    margin: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .modal__content {
+    width: 280px;
+    padding: 10px;
+    height: auto;
+    margin: 10px;
+  }
+}

@@ -6,3 +6,8 @@
   text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 375px) {
+  .price__item-price {
+    padding-top: 10px;
+  }
+}

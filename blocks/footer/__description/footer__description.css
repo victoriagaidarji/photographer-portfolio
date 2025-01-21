@@ -8,3 +8,23 @@
   text-transform: capitalize;
 }
 
+@media (max-width: 1024px) {
+  .footer__description {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__description {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer__description {
+    margin-top: 5px;
+    font-size: 18px;
+  }
+}

@@ -4,3 +4,21 @@
   margin: 0;
 }
 
+
+@media (max-width: 1024px) {
+  .price__title {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price__title {
+    font-size: 58px;
+  }
+}
+
+@media (max-width: 375px) {
+  .price__title {
+    font-size: 52px;
+  }
+}

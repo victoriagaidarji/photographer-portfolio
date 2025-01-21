@@ -6,3 +6,20 @@
   line-height: 1.4;
 }
 
+@media (max-width: 1024px) {
+  .price__item-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price__item-description {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .price__item-description {
+    font-size: 13px;
+  }
+}

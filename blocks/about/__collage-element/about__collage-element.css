@@ -4,3 +4,23 @@
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
 }
 
+@media (max-width: 1024px) {
+  .about__collage-element {
+    width: 155px;
+    height: 155px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__collage-element {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about__collage-element {
+    width: 120px;
+    height: 120px;
+  }
+}

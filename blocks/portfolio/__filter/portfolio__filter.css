@@ -13,3 +13,22 @@
 .portfolio__filter_active {
   font-weight: bold;
 }
+
+
+@media (max-width: 1024px) {
+  .portfolio__filter {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio__filter {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .portfolio__filter {
+    font-size: 11px;
+  }
+}

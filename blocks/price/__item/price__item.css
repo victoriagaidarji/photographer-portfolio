@@ -8,3 +8,21 @@
   background-color: #727272;
 }
 
+@media (max-width: 1024px) {
+  .price__item {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price__item {
+    max-width: 215px;
+  }
+}
+
+@media (max-width: 375px) {
+  .price__item {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

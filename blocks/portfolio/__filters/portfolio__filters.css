@@ -8,3 +8,25 @@
   top: 10px;
 }
 
+@media (max-width: 1024px) {
+  .portfolio__filters {
+    width: 395px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio__filters {
+    width: 645px;
+    gap: 109px;
+  }
+}
+
+@media (max-width: 375px) {
+  .portfolio__filters {
+    top: 60px;
+    width: 300px;
+    left: 35px;
+    gap: 35px;
+  }
+}

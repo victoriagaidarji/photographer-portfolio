@@ -8,4 +8,22 @@
 }
 
 
+@media (max-width: 1024px) {
+  .portfolio__gallery-item {
+    width: calc(25% - 16px);
+  }
+}
 
+@media (max-width: 768px) {
+  .portfolio__gallery-item {
+    width: calc(50% - 16px);
+  }
+}
+
+@media (max-width: 375px) {
+  .portfolio__gallery-item {
+    margin: 0 auto;
+    width: calc(84% - 16px);
+
+  }
+}

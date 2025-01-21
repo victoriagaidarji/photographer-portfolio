@@ -4,3 +4,21 @@
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .price {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 375px) {
+  .price {
+    max-width: 375px;
+    padding-bottom: 120px;
+  }
+}

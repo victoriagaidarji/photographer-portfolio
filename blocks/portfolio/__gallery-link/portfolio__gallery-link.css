@@ -20,3 +20,31 @@
   color: #fff;
   border: #1d1d1d;
  }
+
+ @media (max-width: 1024px) {
+  .portfolio__gallery-link {
+    width: 395px;
+    height: 58px;
+    left: 505px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio__gallery-link {
+    width: 315px;
+    height: 40px;
+    top: 10px;
+    left: 385px;
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 375px) {
+  .portfolio__gallery-link {
+    width: 270px;
+    height: 40px;
+    top: 50px;
+    left: 50px;
+    font-size: 23px;
+  }
+}

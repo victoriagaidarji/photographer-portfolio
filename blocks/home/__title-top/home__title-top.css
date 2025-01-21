@@ -6,3 +6,26 @@
   display: block;
 }
 
+
+@media (max-width: 1024px) {
+  .home__title-top {
+    padding-left: 460px;
+    font-size: 63px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__title-top {
+    font-size: 48px;
+    padding-left: 363px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home__title-top {
+    position: absolute;
+    bottom: 150px;
+    font-size: 23px;
+    padding-left: 110px;
+  }
+}

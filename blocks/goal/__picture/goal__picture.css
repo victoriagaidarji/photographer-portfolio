@@ -7,3 +7,22 @@
   z-index: 0;
 }
 
+@media (max-width: 1024px) {
+  .goal__picture {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  .goal__picture {
+    width: 768px;
+    height: 420px;
+  }
+}
+
+@media (max-width: 375px) {
+  .goal__picture {
+    width: 375px;
+    height: 200px;
+  }
+}

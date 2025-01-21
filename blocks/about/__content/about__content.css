@@ -6,6 +6,26 @@
 }
 
 
+@media (max-width: 1024px) {
+  .about__content {
+    align-items: flex-start;
+    gap: 170px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__content {
+    align-items: flex-start;
+    gap: 80px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about__content {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
 
 
 

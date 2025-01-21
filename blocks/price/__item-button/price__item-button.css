@@ -20,3 +20,27 @@
  color: #fff;
  border: #1d1d1d;
 }
+
+
+
+@media (max-width: 1024px) {
+  .price__item-button {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price__item-button {
+    font-size: 14px;
+    width: 180px;
+    margin-left: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .price__item-button {
+    font-size: 16px;
+    width: 250px;
+    margin: 20px auto;
+  }
+}

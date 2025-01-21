@@ -11,3 +11,33 @@
   height: 86px;
 }
 
+
+@media (max-width: 1024px) {
+  .home__quote {
+    font-size: 20px;
+    top: 320px;
+    right: 60px;
+    text-align: right;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home__quote {
+    font-size: 18px;
+    top: 280px;
+    right: 35px;
+    text-align: right;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home__quote {
+    font-size: 11px;
+    top: 90px;
+    right: 28px;
+    text-align: right;
+    max-width: 170px;
+  }
+}

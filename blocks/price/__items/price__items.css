@@ -7,3 +7,22 @@
   padding-bottom: 30px;
 }
 
+@media (max-width: 1024px) {
+  .price__items {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .price__items {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .price__items {
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+}

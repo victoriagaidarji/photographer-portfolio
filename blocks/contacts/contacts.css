@@ -5,3 +5,24 @@
   padding: 0;
   text-align: center;
 }
+
+
+@media (max-width: 1024px) {
+  .contacts {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacts {
+    max-width: 768px;
+    height: 440px;
+  }
+}
+
+@media (max-width: 375px) {
+  .contacts {
+    max-width: 375px;
+    height: 550px;
+  }
+}

@@ -8,3 +8,23 @@
 .home__header-item:hover {
   opacity: 50%;
 }
+
+
+@media (max-width: 1024px) {
+  .home__header-item {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__header-item {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .home__header-item {
+    font-size: 11px;
+    margin: 12px;
+  }
+}

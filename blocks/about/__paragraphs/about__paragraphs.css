@@ -10,3 +10,27 @@
   left: 60px;
   top: 0;
 }
+
+@media (max-width: 1024px) {
+  .about__paragraphs {
+    width: 405px;
+    height: 330px;
+    left: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__paragraphs {
+    width: 360px;
+    height: 300px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about__paragraphs {
+    width: 330px;
+    height: 300px;
+    left: 20px;
+  }
+}

@@ -8,3 +8,26 @@
   left: 60px;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5)
 }
+
+
+@media (max-width: 1024px) {
+  .about__title {
+    font-size: 60px;
+    left: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__title {
+    font-size: 54px;
+    left: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about__title {
+    font-size: 40px;
+    padding-left: 90px;
+
+  }
+}

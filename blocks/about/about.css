@@ -3,3 +3,24 @@
   margin: 0 auto;
   bottom: 0;
 }
+
+@media (max-width: 1024px) {
+  .about {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    max-width: 768px;
+    max-height: 480px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about {
+    max-width: 375px;
+    min-height: 600px;
+    padding-bottom: 50px;
+  }
+}

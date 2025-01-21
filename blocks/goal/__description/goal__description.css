@@ -11,3 +11,26 @@
   z-index: 1;
 }
 
+@media (max-width: 1024px) {
+  .goal__description {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .goal__description {
+    font-size: 20px;
+    top: 160px;
+    left: 60px;
+    width: 680px;
+  }
+}
+
+@media (max-width: 375px) {
+  .goal__description {
+    font-size: 14px;
+    width: 320px;
+    top: 52px;
+    left: 30px;
+  }
+}

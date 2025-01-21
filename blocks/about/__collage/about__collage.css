@@ -10,3 +10,26 @@
   top: 60px;
 }
 
+
+
+@media (max-width: 1024px) {
+  .about__collage {
+    width: 325px;
+    height: 325px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about__collage {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about__collage {
+    width: 250px;
+    height: 250px;
+    padding-left: 60px;
+  }
+}

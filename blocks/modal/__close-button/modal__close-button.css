@@ -14,3 +14,25 @@
 .modal__close-button:hover {
   opacity: 50%;
 }
+
+
+@media (max-width: 1024px) {
+  .modal__close-button {
+    right: 170px;
+    bottom: 940px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal__close-button {
+    right: 80px;
+    bottom: 800px;
+  }
+}
+
+@media (max-width: 375px) {
+  .modal__close-button {
+    right: 0px;
+    bottom: 660px;
+  }
+}

@@ -45,3 +45,60 @@ h3#final-Price {
   border-top: #1d1d1d;
 }
 
+
+
+@media (max-width: 1024px) {
+  #shootType, input#duration, input#photos {
+    width: 100%; 
+    font-size: 14px; 
+  }
+
+  #extraServicesContainer {
+    gap: 5px; 
+  }
+
+  .modal__extra-service-item {
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  h3#final-Price {
+    font-size: 16px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  #shootType, input#duration, input#photos {
+    width: 100%; 
+    font-size: 14px; 
+  }
+
+  #extraServicesContainer {
+    gap: 5px; 
+  }
+
+  .modal__extra-service-item {
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  h3#final-Price {
+    font-size: 16px; 
+  }
+}
+
+@media (max-width: 375px) {
+  .modal {
+    padding: 0 10px; /* Добавляем отступы */
+  }
+
+  #shootType, input#duration, input#photos {
+    width: 100%; /* Максимальная адаптация */
+    font-size: 12px; /* Минимальный размер текста */
+  }
+
+  h3#final-Price {
+    font-size: 14px;
+  }
+}

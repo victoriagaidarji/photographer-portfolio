@@ -12,3 +12,11 @@
   z-index: 1;
 }
 
+@media (max-width: 375px) {
+  .retouch__content {
+    min-width: 375px;
+    height: 350px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+}

@@ -9,3 +9,23 @@
   left: 135px;
   z-index: 1;
 }
+
+@media (max-width: 1024px) {
+  .slogan__content {
+    left: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan__content {
+    left: 45px;
+    top: 125px;
+  }
+}
+
+@media (max-width: 375px) {
+  .slogan__content {
+    left: 50px;
+    top: 50px;
+  }
+}

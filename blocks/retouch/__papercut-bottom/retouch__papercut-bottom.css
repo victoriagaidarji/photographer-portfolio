@@ -7,3 +7,20 @@
 }
 
 
+@media (max-width: 1024px) {
+  .retouch__papercut-bottom {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .retouch__papercut-bottom {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 375px) {
+  .retouch__papercut-bottom {
+    max-width: 375px;
+  }
+}

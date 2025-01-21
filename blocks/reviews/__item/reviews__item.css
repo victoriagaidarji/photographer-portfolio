@@ -9,3 +9,9 @@
   height: 100%;
   color: #1d1d1d;
 }
+
+@media (max-width: 375px) {
+  .reviews__item {
+    height: 380px;
+  }
+}

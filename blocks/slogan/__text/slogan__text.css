@@ -1,3 +1,24 @@
 .slogan__text {
   font-size: 32px;
 }
+
+@media (max-width: 1024px) {
+  .slogan__text {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan__text {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 375px) {
+  .slogan__text {
+    font-size: 12px;
+    width: 290px;
+    padding: 0;
+    margin: 0;
+  }
+}

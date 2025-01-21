@@ -5,3 +5,22 @@
   padding-top: 30px;
 }
 
+@media (max-width: 1024px) {
+  .reviews {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    max-width: 768px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 375px) {
+  .reviews {
+    max-width: 370px;
+    min-height: 1060px;
+  }
+}

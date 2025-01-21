@@ -2,7 +2,7 @@
   background: url('../../images/background.jpg'); 
   background-size: contain;
   background-repeat: repeat;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   position: relative;
   overflow-x: hidden;
@@ -63,9 +63,9 @@ option {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   :root {
     background-size: contain;
-    max-width: 320px;
+    max-width: 375px;
   }
 }

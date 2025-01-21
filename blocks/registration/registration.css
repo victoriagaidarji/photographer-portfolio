@@ -2,7 +2,7 @@
   margin: 0;
   background-image: url(../../images/registration-background.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   overflow: hidden;
   display: flex;
   justify-content: center;

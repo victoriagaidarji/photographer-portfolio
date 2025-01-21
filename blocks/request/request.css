@@ -9,3 +9,26 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@media (max-width: 1024px) {
+  .request {
+    max-width: 1024px;
+    width: 1024px;
+    height: 560px;
+  }
+}
+
+@media (max-width: 768px) {
+  .request {
+    max-width: 768px;
+    height: 495px;
+  }
+}
+
+@media (max-width: 375px) {
+  .request {
+    max-width: 375px;
+    height: 420px;
+  }
+}

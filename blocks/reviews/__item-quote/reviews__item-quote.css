@@ -3,3 +3,28 @@
   margin-bottom: 20px;
   height: 80px;
 }
+
+
+@media (max-width: 1024px) {
+  .reviews__item-quote {
+    font-size: 16px;
+    margin-bottom: 15px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews__item-quote {
+    font-size: 14px;
+    margin-bottom: 10px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  .reviews__item-quote {
+    font-size: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+  }
+}

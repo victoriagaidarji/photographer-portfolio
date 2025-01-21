@@ -7,3 +7,23 @@
   line-height: 1.4;
 }
 
+@media (max-width: 1024px) {
+  .retouch__description {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .retouch__description {
+    font-size: 18px;
+    max-width: 670px;
+  }
+}
+
+@media (max-width: 375px) {
+  .retouch__description {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

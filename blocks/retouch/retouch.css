@@ -4,3 +4,20 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 1024px) {
+  .retouch {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .retouch {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 375px) {
+  .retouch {
+    max-width: 375px;
+  }
+}

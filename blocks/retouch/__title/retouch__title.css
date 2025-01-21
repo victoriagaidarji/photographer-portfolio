@@ -4,3 +4,22 @@
   margin-bottom: 15px;
   margin-top: 10px;
 }
+
+@media (max-width: 1024px) {
+  .retouch__title {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .retouch__title {
+    font-size: 32px;
+    max-width: 670px;
+  }
+}
+
+@media (max-width: 375px) {
+  .retouch__title {
+    font-size: 22px;
+  }
+}

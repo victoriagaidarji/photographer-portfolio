@@ -9,9 +9,23 @@
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .request__area {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .request__area {
+    width: 70%;
+  }
+}
+
 @media (max-width: 375px) {
   .request__area {
     padding: 20px;
     width: 70%;
   }
 }
+
+

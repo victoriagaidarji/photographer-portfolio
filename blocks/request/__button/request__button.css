@@ -24,15 +24,16 @@
 
 @media (max-width: 1024px) {
   .request__button {
+    width: 450px;
     font-size: 30px;
-    margin-left: 65px;
+    margin-left: 130px;
   }
 }
 
 @media (max-width: 768px) {
   .request__button {
     font-size: 24px;
-    margin-left: 0px;
+    margin-left: 48px;
   }
 }
 

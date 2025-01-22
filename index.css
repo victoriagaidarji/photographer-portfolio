@@ -57,9 +57,13 @@
 @import url('./blocks/portfolio/__gallery/_hidden/portfolio__gallery_hidden.css');
 
 @import url('./blocks/gallery/gallery.css');
+@import url('./blocks/gallery/__filter/gallery__filter.css');
+@import url('./blocks/gallery/__filters/gallery__filters.css');
 @import url('./blocks/gallery/__home-button/gallery__home-button.css');
 @import url('./blocks/gallery/__item/gallery__item.css');
 @import url('./blocks/gallery/__photos/gallery__photos.css');
+@import url('./blocks/gallery/__title/gallery__title.css');
+@import url('./blocks/gallery/__filter/_active/gallery__filter_active.css');
 @import url('./blocks/gallery/__item/_portraits/gallery__item_portraits.css');
 @import url('./blocks/gallery/__item/_events/gallery__item_events.css');
 @import url('./blocks/gallery/__item/_brands/gallery__item_brands.css');

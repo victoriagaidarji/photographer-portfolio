@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const filters = document.querySelectorAll(".portfolio__filter");
+  const filters = document.querySelectorAll(".gallery__filter");
   const galleries = document.querySelectorAll(".gallery__photos > div");
 
   function hideAllGalleries() {
@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
   filters.forEach(filter => {
     filter.addEventListener("click", function(event) {
       event.preventDefault();
-      filters.forEach(f => f.classList.remove("portfolio__filter_active"));
-      filter.classList.add("portfolio__filter_active");
+      filters.forEach(f => f.classList.remove("gallery__filter_active"));
+      filter.classList.add("gallery__filter_active");
 
       hideAllGalleries();
 

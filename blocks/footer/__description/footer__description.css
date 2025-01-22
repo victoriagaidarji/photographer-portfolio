@@ -24,7 +24,7 @@
 
 @media (max-width: 375px) {
   .footer__description {
-    margin-top: 5px;
+    margin-top: 15px;
     font-size: 18px;
   }
 }

@@ -1,0 +1,33 @@
+.gallery__filters {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  width: 515px;
+  border-bottom: 1px solid #1d1d1d;
+  gap: 65px;
+  top: 10px;
+}
+
+@media (max-width: 1024px) {
+  .gallery__filters {
+    width: 395px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__filters {
+    width: 645px;
+    gap: 109px;
+  }
+}
+
+@media (max-width: 375px) {
+  .gallery__filters {
+    margin-bottom: 30px;
+    top: 30px;
+    width: 300px;
+    left: 35px;
+    gap: 35px;
+  }
+}

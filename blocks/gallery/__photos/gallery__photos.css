@@ -4,6 +4,29 @@
   flex-direction: column;
   margin-top: 10px;
   gap: 20px;
-  height: 7900px;
+  max-height: 7900px;
+  margin: 10px 0 auto;
 } 
 
+@media (max-width: 1024px) {
+  .gallery__photos {
+    gap: 10px;
+    max-height: 11000px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__photos {
+    max-width: 650px;
+    max-height: 9500px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .gallery__photos {
+    max-height: none;
+    max-width: 300px;
+    padding-left: 18px;
+  }
+}

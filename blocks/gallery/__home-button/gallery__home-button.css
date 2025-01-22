@@ -21,3 +21,32 @@
   color: #fff;
   border: #1d1d1d;
  }
+
+ @media (max-width: 1024px) {
+  .gallery__home-button {
+    left: 620px;
+    top: 63px;
+    font-size: 22px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery__home-button {
+    left: 390px;
+    top: 40px;
+    width: 310px;
+    height: 50px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .gallery__home-button {
+    left: 35px;
+    top: 80px;
+    width: 300px;
+    height: 40px;
+    font-size: 22px;
+  }
+}

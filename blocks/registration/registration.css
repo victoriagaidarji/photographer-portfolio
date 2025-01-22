@@ -25,6 +25,7 @@
     max-width: 768px;
     flex-direction: column;
     padding-bottom: 50px;
+    overflow-x: hidden;
   }
 }
 

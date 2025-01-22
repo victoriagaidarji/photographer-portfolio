@@ -60,6 +60,7 @@ option {
   :root {
     background-size: contain;
     max-width: 768px;
+    overflow: hidden;
   }
 }
 

@@ -5,3 +5,24 @@
   gap: 20px;
   padding-right: 65px;
 }
+
+@media (max-width: 1024px) {
+  .registration__contact-info {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__contact-info {
+    gap: 40px;
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration__contact-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+  }
+}

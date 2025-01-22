@@ -18,3 +18,21 @@ background-color: #bdbdbd;
 color: #1d1d1d;
 border: #1d1d1d;
 }
+
+@media (max-width: 1024px) {
+  .registration__submit-button {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__submit-button {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration__submit-button {
+    font-size: 22px;
+  }
+}

@@ -7,3 +7,21 @@
   opacity: 70%;
 }
 
+
+@media (max-width: 1024px) {
+  .registration__input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__input {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration__input {
+    font-size: 10px;
+  }
+}

@@ -22,3 +22,29 @@
   color: #1d1d1d;
   border: #1d1d1d;
  }
+
+ @media (max-width: 1024px) {
+  .registration__home-button {
+    width: 350px;
+    height: 40px;
+    top: 20px;
+    right: 110px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__home-button {
+    top: 20px;
+    right: 205px;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration__home-button {
+    font-size: 22px;
+    width: 300px;
+    height: 40px;
+    top: 20px;
+    right: 40px;
+  }
+}

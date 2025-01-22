@@ -7,3 +7,22 @@
   opacity: 70%;
   color: #555555;
 }
+
+
+@media (max-width: 1024px) {
+  .registration__select {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__select {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration__select {
+    font-size: 10px;
+  }
+}

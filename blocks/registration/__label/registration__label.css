@@ -4,3 +4,22 @@
   color: #fff;
   text-align: left;
 }
+
+
+@media (max-width: 1024px) {
+  .registration__label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration__label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration__label {
+    font-size: 10px;
+  }
+}

@@ -9,8 +9,27 @@
   align-items: center;
   max-width: 1280px;
   width: 1280px;
-  height: 573px;
+  min-height: 573px;
   color: #fff;
   padding-top: 20px;
 }
 
+@media (max-width: 1024px) {
+  .registration {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+  .registration {
+    max-width: 768px;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .registration {
+    max-width: 375px;
+  }
+}
